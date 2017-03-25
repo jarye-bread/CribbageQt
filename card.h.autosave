@@ -1,0 +1,17 @@
+#ifndef CARD_H
+#define CARD_H
+#include <string>
+using std::string;
+class Card{
+private:
+    string _name;
+    int _val;
+public:
+    virtual ~Card() = default;
+    Card(): _name("Joker"), _val(null){}
+    Card(string str, int val): _name(str), _val(val){}
+    string getName();
+    int getVal();
+};
+
+#endif // CARD_H

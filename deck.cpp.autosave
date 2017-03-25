@@ -1,0 +1,3 @@
+Deck::getCard(int pos){
+    return _myDeck[pos];
+}

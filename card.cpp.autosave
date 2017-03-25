@@ -1,0 +1,7 @@
+Card::getName(){
+    return _name;
+}
+Card::getVal(){
+    return _val;
+}
+
